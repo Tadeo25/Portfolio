@@ -9,7 +9,7 @@ export default function Navbar({ isScrolling }) {
         <div>
             <nav className={`navbar ${ isScrolling > 20 ? "scrolling" : null}`}>
                 <div className="navbar-logo" onClick={toTheTop}>
-                    Your Name
+                    Tadeo Mocoroa
                 </div>
             </nav>
         </div>

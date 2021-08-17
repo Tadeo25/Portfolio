@@ -27,6 +27,23 @@
     width: 70%;
     margin: 0 auto;
 }
+.contact-form{
+    display: flex;
+    flex-direction: column; 
+}
+
+.contact-form > input {
+    height: 30px;
+    width: 50%;
+}
+
+.contact-form > textarea {
+    width: 50%;
+}
+
+.form-send{
+    margin-top:5px;
+}
 
 .footer-sns{
     width: 70%;

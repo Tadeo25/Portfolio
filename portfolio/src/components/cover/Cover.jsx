@@ -13,8 +13,8 @@ export default function Cover() {
             loop 
             muted>
             </video>
-            <h1>Name Last Name</h1>
-            <p>Developer | Designer | Emprendedor | Content Creator</p>
+            <h1>Tadeo Mocoroa</h1>
+            <p>Developer Jr | Video editor | Emprendedor | Content Creator</p>
 
         </div>
             
