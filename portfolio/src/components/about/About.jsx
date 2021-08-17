@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css';
+import Foto from '../../media/Foto1.png'
 export default function About() {
     return (
         <div className="about-container">
@@ -15,7 +16,7 @@ export default function About() {
                 </p>
             </div>
             <div className="about-img">
-                <img src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg" alt="" />
+                <img src={Foto} alt="" />
             </div>
         </div>
     )

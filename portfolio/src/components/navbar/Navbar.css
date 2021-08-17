@@ -18,3 +18,8 @@
     color: white;
     cursor: pointer;
 }
+
+.navbar-logo > span {
+    font-size: inherit;
+    
+}

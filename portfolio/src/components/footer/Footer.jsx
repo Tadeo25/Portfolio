@@ -3,7 +3,6 @@ import emailjs from "emailjs-com";
 import "./Footer.css";
 
 export default function Footer() {
-
   function sendEmail(e) {
     e.preventDefault();
 
@@ -33,17 +32,17 @@ export default function Footer() {
           <p>Mar del Plata, Buenos Aires, Argentina</p>
         </div>
         <div className="footer-contact">
-        <h3>Contact me</h3>
-        <form className="contact-form" onSubmit={sendEmail}>
-        <input type="hidden" name="contact_number" />
-        <label>Name</label>
-        <input type="text" name="name" />
-        <label>Email</label>
-        <input type="email" name="email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input className="form-send" type="submit" value="Send" />
-      </form>
+          <h3>Contact me</h3>
+          <form className="contact-form" onSubmit={sendEmail}>
+            <input type="hidden" name="contact_number" />
+            <label>Name</label>
+            <input type="text" name="name" />
+            <label>Email</label>
+            <input type="email" name="email" />
+            <label>Message</label>
+            <textarea name="message" />
+            <input className="form-send" type="submit" value="SEND" />
+          </form>
         </div>
         <div className="footer-sns">
           <div className="design-by">
@@ -59,9 +58,12 @@ export default function Footer() {
             <a href="https://www.instagram.com/tade_mocoroa/" target="_blank">
               <i className="fab fa-instagram instagram"></i>
             </a>
-             <a href="https://api.whatsapp.com/send?phone=543816243016&text=Hola%20Tadeo,%20me%20interesa%20trabajar%20contigo" target="_blank">
-                            <i className="fab fa-whatsapp whatsapp"></i>
-                        </a> 
+            <a
+              href="https://api.whatsapp.com/send?phone=543816243016&text=Hola%20Tadeo,%20me%20interesa%20trabajar%20contigo"
+              target="_blank"
+            >
+              <i className="fab fa-whatsapp whatsapp"></i>
+            </a>
           </div>
         </div>
       </footer>

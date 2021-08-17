@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Cover.css"
-import coverVideo from "../../media/videoCover2.mp4"
+import coverVideo from "../../media/videoCover3.mp4"
 
 export default function Cover() {
     return (
@@ -9,7 +9,6 @@ export default function Cover() {
 
             <video className="video" 
             src={coverVideo} 
-            autoplay 
             loop 
             muted>
             </video>

@@ -39,10 +39,11 @@
 
 .contact-form > textarea {
     width: 50%;
+    height: 70px;
 }
 
 .form-send{
-    margin-top:5px;
+    margin-top: 10px;
 }
 
 .footer-sns{
@@ -102,5 +103,13 @@
 
     .design-by{
         padding: 0 0 40px 0;
+    }
+    .contact-form > input {
+        height: 20px;
+        width: 100%;
+    }
+    
+    .contact-form > textarea {
+        width: 100%;
     }
 }
