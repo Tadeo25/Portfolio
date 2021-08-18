@@ -10,14 +10,14 @@ export default function Navbar({ isScrolling }) {
     useEffect(() => {
         init(textRef.current,
              { showCursor: false,
-               strings: ['Mocoroa', 'Come Back Up' ],
+               strings: ['Welcome', 'Come Back Up' ],
              });
     }, [])
     return (
         <div>
             <nav className={`navbar ${ isScrolling > 20 ? "scrolling" : null}`}>
                 <div className="navbar-logo" onClick={toTheTop}>
-                    Tadeo <span ref={textRef}></span>
+                    <span ref={textRef}></span>
                 </div>
             </nav>
         </div>
