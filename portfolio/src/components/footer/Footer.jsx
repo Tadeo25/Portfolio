@@ -52,15 +52,20 @@ export default function Footer() {
             <a
               href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
               target="_blank"
+              rel="noreferrer"
             >
               <i className="fab fa-linkedin linkedin"></i>
             </a>
-            <a href="https://www.instagram.com/tade_mocoroa/" target="_blank">
+            <a href="https://www.instagram.com/tade_mocoroa/" 
+               target="_blank"
+               rel="noreferrer"
+               >
               <i className="fab fa-instagram instagram"></i>
             </a>
             <a
               href="https://api.whatsapp.com/send?phone=543816243016&text=Hola%20Tadeo,%20me%20interesa%20trabajar%20contigo"
               target="_blank"
+              rel="noreferrer"
             >
               <i className="fab fa-whatsapp whatsapp"></i>
             </a>
